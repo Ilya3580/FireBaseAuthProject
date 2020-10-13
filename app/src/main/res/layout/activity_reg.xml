@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:paddingLeft="15dp"
+        android:text="Регистрация"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#FFFFFF"
+        android:gravity="center_vertical"
+        android:hint="Имя"
+        android:inputType="textCapWords"
+        android:maxLines="1"
+        android:paddingLeft="15dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:maxLines="1"
+        android:inputType="textCapWords"
+        android:id="@+id/surname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#FFFFFF"
+        android:hint="Фамилия"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:maxLines="1"
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#FFFFFF"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="30dp"
+        />
+    <EditText
+        android:maxLines="1"
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#FFFFFF"
+        android:hint="Пароль"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="30dp"
+        >
+
+        <Button
+            android:id="@+id/leftButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="7"
+            android:background="#FFFFFF"
+            android:text="Отмена"
+            android:textAlignment="center"
+            style="@style/TextAppearance.AppCompat.Button" />
+
+        <Button
+            android:id="@+id/rightButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="3"
+            android:background="#FFFFFF"
+            android:text="Зарегистрироваться"
+            android:textAlignment="center" />
+    </LinearLayout>
+</LinearLayout>
